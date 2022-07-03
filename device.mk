@@ -13,3 +13,15 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
+
+# A/B
+TARGET_IS_AB := true
+
+# Keymaster4
+TARGET_USES_KM4 := true
+
+# Inherit from mt6765-common
+$(call inherit-product, device/teracube/mt6765-common/common.mk)
+
+# Inherit from vendor blobs
+$(call inherit-product, vendor/teracube/emerald/emerald-vendor.mk)

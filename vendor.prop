@@ -1,0 +1,5 @@
+# TEE
+ro.hardware.kmsetkey=beanpod
+ro.hardware.gatekeeper=beanpod
+ro.vendor.mtk_microtrust_tee_support=1
+ro.vendor.beanpod.tface=tface

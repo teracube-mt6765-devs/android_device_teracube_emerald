@@ -19,8 +19,19 @@ include device/teracube/mt6765-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/teracube/emerald
 
+# A/B
+AB_OTA_UPDATER := true
+AB_OTA_PARTITIONS += \
+    boot \
+    product \
+    system \
+    vendor \
+    vbmeta \
+    vbmeta_system \
+    vbmeta_vendor
+
 # Kernel
-TARGET_KERNEL_CONFIG := emerald_defconifg
+TARGET_KERNEL_CONFIG := emerald_defconfig
 
 # OTA Assert
 TARGET_OTA_ASSERT_DEVICE := emerald,Teracube_2e,yk673v6_lwg62_64
@@ -52,6 +63,9 @@ TARGET_COPY_OUT_VENDOR := vendor
 
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
+
+# Recovery
+TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.mt6765
 
 # Inherit from proprietary version
 include vendor/teracube/emerald/BoardConfigVendor.mk

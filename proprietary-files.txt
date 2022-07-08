@@ -1,6 +1,13 @@
 # Extracted from full_yk673v6_lwg62_64-user 11 RP1A.200720.011 p1k61v164bspP19 release-keys unless pinned
 # Device: emerald
 
+# Fingerprint
+vendor/etc/init/init.fpsensor.rc
+vendor/lib64/libfp_ext_svc2.so
+vendor/lib64/vendor.fpsensor.hardware.fpsensorhidlsvc@2.0.so
+vendor/lib64/hw/fpsensor_fingerprint.default.so
+vendor/lib64/libchiponeic_fingerprint_factory.so
+
 # Keymaster
 system_ext/lib/libteeservice_client.trustonic.so
 system_ext/lib64/libteeservice_client.trustonic.so

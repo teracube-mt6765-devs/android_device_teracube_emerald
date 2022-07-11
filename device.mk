@@ -14,6 +14,10 @@
 # limitations under the License.
 #
 
+# Soong namespaces
+PRODUCT_SOONG_NAMESPACES += \
+    $(LOCAL_PATH)
+
 # Inherit from mt6765-common
 $(call inherit-product, device/teracube/mt6765-common/common.mk)
 

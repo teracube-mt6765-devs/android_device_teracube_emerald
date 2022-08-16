@@ -17,7 +17,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Enable debug options for emerald product.
-TERACUBE_DEBUG := partial
+TERACUBE_DEBUG := false
 
 # Inherit from emerald device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)

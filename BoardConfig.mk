@@ -66,6 +66,7 @@ TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
 # Recovery
 TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.mt6765
+BOARD_USES_RECOVERY_AS_BOOT := true
 
 # Inherit from proprietary version
 include vendor/teracube/emerald/BoardConfigVendor.mk

@@ -17,18 +17,18 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Enable debug options for emerald product.
-TERACUBE_DEBUG := false
+TERACUBE_DEBUG := true
 
 # Inherit from emerald device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 # Inherit some common Lineage stuff
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/potato/config/common_full_phone.mk)
 
 PRODUCT_BRAND := Teracube
 PRODUCT_DEVICE := emerald
 PRODUCT_MANUFACTURER := Teracube
-PRODUCT_NAME := lineage_emerald
+PRODUCT_NAME := potato_emerald
 PRODUCT_MODEL := Teracube 2e
 
 PRODUCT_GMS_CLIENTID_BASE := android-ragentek

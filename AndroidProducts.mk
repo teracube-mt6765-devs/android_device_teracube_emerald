@@ -1,2 +1,2 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_emerald.mk
+    $(LOCAL_DIR)/potato_emerald.mk

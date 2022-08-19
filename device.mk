@@ -67,7 +67,9 @@ PRODUCT_PACKAGES += \
     fstab.mt6762 \
     fstab.mt6765 \
     fstab.mt6762.ramdisk \
-    fstab.mt6765.ramdisk
+    fstab.mt6765.ramdisk \
+    init.recovery.mt6762.rc \
+    init.recovery.mt6765.rc
 
 # Update engine
 PRODUCT_PACKAGES += \

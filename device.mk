@@ -55,6 +55,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.cp_system_other_odex=1
 
+# Gatekeeper
+PRODUCT_PACKAGES += \
+    android.hardware.gatekeeper@1.0-service \
+    android.hardware.gatekeeper@1.0-impl
+
 # Keymaster
 PRODUCT_PACKAGES += \
     android.hardware.keymaster@4.0

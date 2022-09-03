@@ -30,6 +30,9 @@ AB_OTA_PARTITIONS += \
     vbmeta_system \
     vbmeta_vendor
 
+# Bootloader
+TARGET_BOOTLOADER_BOARD_NAME := emerald
+
 # Kernel
 TARGET_KERNEL_CONFIG := emerald_defconfig
 

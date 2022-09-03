@@ -69,7 +69,7 @@ TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.mt6765
 BOARD_USES_RECOVERY_AS_BOOT := true
 
 # VINTF
-DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/vintf/gatekeeper_manifest.xml
+DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/vintf/manifest.xml
 
 # Inherit from proprietary version
 include vendor/teracube/emerald/BoardConfigVendor.mk

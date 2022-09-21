@@ -1,12 +1,26 @@
 # Extracted from full_yk673v6_lwg62_64-user 11 RP1A.200720.011 p1k61v164bspP19 release-keys unless pinned
 # Device: emerald
 
+# Camera
+system_ext/lib/libimage_detect.so
+vendor/lib/libispcameraca.so
+vendor/lib/libimgsensorca.so
+vendor/lib64/libispcameraca.so
+vendor/lib64/libimgsensorca.so
+
+# Crypto
+system_ext/lib/libcipher_utils.so
+
 # Fingerprint
 vendor/etc/init/init.fpsensor.rc
 vendor/lib64/libfp_ext_svc2.so
 vendor/lib64/vendor.fpsensor.hardware.fpsensorhidlsvc@2.0.so
 vendor/lib64/hw/fpsensor_fingerprint.default.so
 vendor/lib64/libchiponeic_fingerprint_factory.so
+
+# IMS
+vendor/lib/libimsg_log.so
+vendor/lib64/libimsg_log.so
 
 # Keymaster
 system_ext/lib/libteeservice_client.trustonic.so
@@ -59,6 +73,15 @@ vendor/lib/hw/gatekeeper.beanpod.so
 vendor/lib/hw/gatekeeper.default.so
 vendor/lib64/hw/gatekeeper.beanpod.so
 vendor/lib64/hw/gatekeeper.default.so
+
+# Media
+vendor/lib/libgz_gp_client.so
+vendor/lib/libgz_uree.so
+vendor/lib64/libgz_gp_client.so
+vendor/lib64/libgz_uree.so
+
+# Neural Networks HAL
+system_ext/lib/libnn_sample.so
 
 # TA
 vendor/bin/init_thh

@@ -76,9 +76,7 @@ vendor/lib64/hw/gatekeeper.default.so
 
 # Media
 vendor/lib/libgz_gp_client.so
-vendor/lib/libgz_uree.so
 vendor/lib64/libgz_gp_client.so
-vendor/lib64/libgz_uree.so
 
 # Neural Networks HAL
 system_ext/lib/libnn_sample.so

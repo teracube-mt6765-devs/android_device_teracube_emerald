@@ -1,2 +1,9 @@
 soong_namespace {
 }
+
+prebuilt_hidl_interfaces {
+    name: "hidl_tface_interface",
+    interfaces: [
+        "vendor.microtrust.hardware.tface@1.0::ITFaceDevice",
+    ],
+}

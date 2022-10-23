@@ -31,7 +31,7 @@ AB_OTA_PARTITIONS += \
     vbmeta_vendor
 
 # Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := emerald
+TARGET_BOOTLOADER_BOARD_NAME := yk673v6_lwg62_64
 
 # Kernel
 TARGET_KERNEL_CONFIG := emerald_defconfig
